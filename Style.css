@@ -1,0 +1,681 @@
+* {
+
+    margin: 0 auto;
+
+    box-sizing: border-box;
+
+}
+
+header {
+
+    padding-top: 96px;
+
+    padding-bottom: 96px;
+
+    text-align: center;
+
+}
+
+h2 {
+
+    margin-top: 12px;
+
+    font-size: 48px;
+
+}
+
+.blog {
+
+    color: rgba(127, 86, 217, 1);
+
+    font-size: 16px;
+
+    font-weight: 800;
+
+}
+
+.subscribe {
+
+    margin-top: 24px;
+
+    color: rgba(102, 112, 133, 1);
+
+    font-size: 20px;
+
+}
+
+.select {
+
+    max-width: fit-content;
+
+    display: flex;
+
+    gap: 16px;
+
+    margin-top: 40px;
+
+}
+
+input {
+
+    padding-left: 10px;
+
+    width: 350px;
+
+    height: 48px;
+
+    border-color: rgba(208, 213, 221, 1);
+
+    border-radius: 8px;
+
+}
+
+button {
+
+    width: 118px;
+
+    height: 48px;
+
+    background-color: rgba(127, 86, 217, 1);
+
+    color: white;
+
+    border-radius: 8px;
+
+    border: none;
+
+}
+
+.privacy {
+
+    font-size: 14px;
+
+    color: rgba(102, 112, 133, 1);
+
+    margin-right: 15%;
+
+    margin-top: 8px;
+
+}
+
+.recent {
+
+    text-align: center;
+
+    
+
+}
+
+.main {
+
+    max-width: fit-content;
+
+    display: flex;
+
+    gap: 32px;
+
+    margin-top: 32px;
+
+    margin-left: 140px;
+
+    margin-right: 0px;
+
+    margin-bottom: 80px;
+
+}
+
+.uxreview {
+
+    text-align: left;
+
+    max-width: 592px;
+
+    height: 432px;
+
+}
+
+.uxreview-babies {
+
+    display: flex;
+
+    text-align: left;
+
+    margin-top: 24px;
+
+}
+
+.firstp {
+
+    margin-top: 32px;
+
+    color: rgba(105, 65, 198, 1);
+
+}
+
+.arrow > h3 {
+
+    margin-top: 12px;
+
+}
+
+.secondp {
+
+    margin-top: 12px;
+
+    color: rgba(102, 112, 133, 1);
+
+}
+
+.design1 {
+
+    color: rgba(105, 65, 198, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(249, 245, 255, 1);
+
+    border-radius: 16px;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+    
+
+}
+
+.research1 {
+
+    color: rgba(53, 56, 205, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(238, 244, 255, 1);
+
+    border-radius: 16px;
+
+    margin-left: 10px;
+
+    margin-right: 0px;
+
+}
+
+.presentation1 {
+
+    color: rgba(193, 21, 116, 1);
+
+    padding: 2px 10px;
+
+    border-radius: 16px;
+
+    background-color: rgba(253, 242, 250, 1);
+
+    margin-left: 10px;
+
+    margin-right: 0px;
+
+}
+
+.arrow {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 375px;
+
+    
+
+}
+
+.baby {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.migrating {
+
+    max-width: fit-content;
+
+    display: flex;
+
+    gap: 24px;
+
+    text-align: left;
+
+}
+
+.migrating1 {
+
+    color: rgba(105, 65, 198, 1);
+
+}
+
+.migratinginfo > h3 {
+
+    margin-top: 12px;
+
+    line-height: 24px;
+
+    font-size: 18px;
+
+}
+
+.migrating2 {
+
+    margin-top: 8px;
+
+    color: rgba(102, 112, 133, 1);
+
+}
+
+.migrating-babies {
+
+    display: flex;
+
+    margin-top: 24px;
+
+}
+
+.design2 {
+
+    color: rgba(53, 56, 205, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(238, 244, 255, 1);
+
+    border-radius: 16px;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+}
+
+.research2 {
+
+    color: rgba(193, 21, 116, 1);
+
+    padding: 2px 10px;
+
+    border-radius: 16px;
+
+    background-color: rgba(253, 242, 250, 1);
+
+    margin-left: 10px;
+
+}
+
+.API {
+
+    max-width: fit-content;
+
+    display: flex;
+
+    gap: 24px;
+
+    text-align: left;
+
+    margin-top: 24px;
+
+}
+
+.API1 {
+
+    color: rgba(105, 65, 198, 1);
+
+}
+
+.APIinfo > h3 {
+
+    margin-top: 12px;
+
+    line-height: 24px;
+
+    font-size: 18px;
+
+}
+
+.API2 {
+
+    margin-top: 8px;
+
+    color: rgba(102, 112, 133, 1);
+
+}
+
+.API-babies {
+
+    display: flex;
+
+    margin-top: 24px;
+
+}
+
+.design3 {
+
+    color: rgba(2, 122, 72, 1);
+
+    background-color: rgba(236, 253, 243, 1);
+
+    padding: 2px 10px;
+
+    border-radius: 16px;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+}
+
+.research3 {
+
+    color: rgba(193, 21, 116, 1);
+
+    padding: 2px 10px;
+
+    border-radius: 16px;
+
+    background-color: rgba(253, 242, 250, 1);
+
+    margin-left: 10px;
+
+}
+
+.secondmain {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 2;
+
+    grid-gap: 48px 32px;
+
+    margin-left: 140px;
+
+    margin-right: 140px;
+
+    margin-top: 32px;
+
+    margin-bottom: 120px;
+
+}
+
+.bill {
+
+    color: rgba(105, 65, 198, 1);
+
+    margin-top: 32px;
+
+}
+
+.walsh {
+
+    font-size: 24px;
+
+    margin-top: 12px;
+
+    display: flex;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+    gap: 150px;
+
+}
+
+.walsh > h5 {
+
+    margin-left: 0px;
+
+    margin-right: 0px;  
+
+}
+
+.team {
+
+    margin-top: 12px;
+
+    color: rgba(102, 112, 133, 1);
+
+}
+
+.secondbaby {
+
+    margin-top: 24px;
+
+    display: flex;
+
+    
+
+}
+
+.leadership {
+
+    color: rgba(105, 65, 198, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(249, 245, 255, 1);
+
+    border-radius: 16px;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+}
+
+.management {
+
+    color: rgba(54, 63, 114, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(248, 249, 252, 1);
+
+    border-radius: 16px;
+
+    margin-left: 10px;
+
+    margin-right: 0px;
+
+}
+
+.product {
+
+    color: rgba(2, 106, 162, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(240, 249, 255, 1);
+
+    border-radius: 16px;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+}
+
+.research4 {
+
+    color: rgba(53, 56, 205, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(238, 244, 255, 1);
+
+    border-radius: 16px;
+
+    margin-left: 10px;
+
+    margin-right: 0px;
+
+}
+
+.framework {
+
+    color: rgba(196, 50, 10, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(255, 246, 237, 1);
+
+    border-radius: 16px;
+
+    margin-left: 10px;
+
+    margin-right: 0px;
+
+}
+
+.design4 {
+
+    color: rgba(105, 65, 198, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(249, 245, 255, 1);
+
+    border-radius: 16px;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+}
+
+.research5 {
+
+    color: rgba(53, 56, 205, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(238, 244, 255, 1);
+
+    border-radius: 16px;
+
+    margin-left: 10px;
+
+    margin-right: 0px;
+
+}
+
+.design5 {
+
+    color: rgba(105, 65, 198, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(249, 245, 255, 1);
+
+    border-radius: 16px;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+}
+
+.research6 {
+
+    color: rgba(53, 56, 205, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(238, 244, 255, 1);
+
+    border-radius: 16px;
+
+    margin-left: 10px;
+
+    margin-right: 0px;
+
+}
+
+.software {
+
+    color: rgba(2, 122, 72, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(236, 253, 243, 1);
+
+    border-radius: 16px;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+}
+
+.tools {
+
+    color: rgba(193, 21, 116, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(253, 242, 250, 1);
+
+    border-radius: 16px;
+
+    margin-left: 10px;
+
+    margin-right: 0px;
+
+}
+
+.saas {
+
+    color: rgba(192, 16, 72, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(255, 241, 243, 1);
+
+    border-radius: 16px;
+
+    margin-left: 10px;
+
+    margin-right: 0px;
+
+}
+
+.podcast {
+
+    color: rgba(105, 65, 198, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(249, 245, 255, 1);
+
+    border-radius: 16px;
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+}
+
+.success {
+
+    color: rgba(54, 63, 114, 1);
+
+    padding: 2px 10px;
+
+    background-color: rgba(248, 249, 252, 1);
+
+    border-radius: 16px;
+
+    margin-left: 10px;
+
+    margin-right: 0px;
+
+}
