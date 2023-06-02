@@ -1,2 +1,1 @@
-# Oladimeji-Abiodun
-Mini Project 
+# EDSA-mini-project-May
